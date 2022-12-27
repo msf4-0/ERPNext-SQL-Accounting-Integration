@@ -1,0 +1,119 @@
+{
+ "autoname": "field:inv_no",
+ "creation": "2022-12-19 15:48:27.914775",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_code",
+  "area",
+  "currency",
+  "bill_to",
+  "cancelled",
+  "column_break_6",
+  "inv_no",
+  "date",
+  "agent",
+  "terms",
+  "ext_no",
+  "section_break_12",
+  "document_detail_grid",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_code",
+   "fieldtype": "Data",
+   "label": "customer code"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "currency"
+  },
+  {
+   "fieldname": "bill_to",
+   "fieldtype": "Data",
+   "label": "bill to"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inv_no",
+   "fieldtype": "Data",
+   "label": "inv no",
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Data",
+   "label": "terms"
+  },
+  {
+   "fieldname": "ext_no",
+   "fieldtype": "Data",
+   "label": "ext. no"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "document_detail_grid",
+   "fieldtype": "Table",
+   "label": "document detail grid",
+   "options": "document detail grid"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "total"
+  }
+ ],
+ "modified": "2022-12-19 15:48:27.914775",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "supplier invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

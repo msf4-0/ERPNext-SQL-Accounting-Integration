@@ -1,0 +1,64 @@
+{
+ "creation": "2022-12-20 17:47:39.206724",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "uom",
+  "rate",
+  "ref_cost",
+  "ref_price",
+  "min_price",
+  "base"
+ ],
+ "fields": [
+  {
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "uom"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "rate"
+  },
+  {
+   "fieldname": "ref_cost",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ref cost"
+  },
+  {
+   "fieldname": "ref_price",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ref price"
+  },
+  {
+   "fieldname": "min_price",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "min price"
+  },
+  {
+   "default": "0",
+   "fieldname": "base",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "base"
+  }
+ ],
+ "istable": 1,
+ "modified": "2022-12-20 17:57:33.012112",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "stock item child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

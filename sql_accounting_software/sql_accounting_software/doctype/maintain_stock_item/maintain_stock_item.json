@@ -1,0 +1,187 @@
+{
+ "creation": "2022-12-14 10:10:25.944799",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "code",
+  "description",
+  "column_break_3",
+  "serial_no",
+  "stock_control",
+  "active",
+  "section_break_7",
+  "item_group",
+  "base_uom",
+  "ref_cost",
+  "ref_price",
+  "shelf",
+  "column_break_13",
+  "reorder_level",
+  "reorder_qty",
+  "lead_time",
+  "output_tax",
+  "input_tax",
+  "column_break_19",
+  "remark_1",
+  "remark_2",
+  "barcode",
+  "tariff",
+  "bal_qty",
+  "section_break_25",
+  "table_26"
+ ],
+ "fields": [
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "code"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "serial_no",
+   "fieldtype": "Check",
+   "label": "serial no"
+  },
+  {
+   "default": "0",
+   "fieldname": "stock_control",
+   "fieldtype": "Check",
+   "label": "stock control"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "active"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_group",
+   "fieldtype": "Data",
+   "label": "item group"
+  },
+  {
+   "fieldname": "base_uom",
+   "fieldtype": "Data",
+   "label": "base uom"
+  },
+  {
+   "fieldname": "ref_cost",
+   "fieldtype": "Data",
+   "label": "ref cost"
+  },
+  {
+   "fieldname": "ref_price",
+   "fieldtype": "Data",
+   "label": "ref price"
+  },
+  {
+   "fieldname": "shelf",
+   "fieldtype": "Data",
+   "label": "shelf"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reorder_level",
+   "fieldtype": "Data",
+   "label": "reorder level"
+  },
+  {
+   "fieldname": "reorder_qty",
+   "fieldtype": "Data",
+   "label": "reorder qty"
+  },
+  {
+   "fieldname": "lead_time",
+   "fieldtype": "Data",
+   "label": "lead time"
+  },
+  {
+   "fieldname": "output_tax",
+   "fieldtype": "Data",
+   "label": "output tax"
+  },
+  {
+   "fieldname": "input_tax",
+   "fieldtype": "Data",
+   "label": "input tax"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Data",
+   "label": "remark 1"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Data",
+   "label": "remark 2"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Data",
+   "label": "barcode"
+  },
+  {
+   "fieldname": "tariff",
+   "fieldtype": "Data",
+   "label": "tariff"
+  },
+  {
+   "fieldname": "bal_qty",
+   "fieldtype": "Data",
+   "label": "bal qty"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_26",
+   "fieldtype": "Table",
+   "options": "stock item child table"
+  }
+ ],
+ "modified": "2022-12-20 17:54:58.957673",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "maintain stock item",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

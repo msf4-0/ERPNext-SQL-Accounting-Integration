@@ -1,0 +1,117 @@
+{
+ "creation": "2022-12-14 10:09:49.521137",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "code",
+  "description",
+  "column_break_3",
+  "active",
+  "costing_method",
+  "gl_account_code_section",
+  "sales_code",
+  "cash_sales_code",
+  "sreturn_code",
+  "balance_sheet_stock",
+  "column_break_9",
+  "purchase_code",
+  "cash_purchase_code",
+  "preturn_code"
+ ],
+ "fields": [
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "code"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  },
+  {
+   "fieldname": "costing_method",
+   "fieldtype": "Select",
+   "label": "costing method",
+   "options": "FIFO\nFixed Costing\nWeighted Average"
+  },
+  {
+   "fieldname": "gl_account_code_section",
+   "fieldtype": "Section Break",
+   "label": "gl account code"
+  },
+  {
+   "fieldname": "sales_code",
+   "fieldtype": "Data",
+   "label": "sales code"
+  },
+  {
+   "fieldname": "cash_sales_code",
+   "fieldtype": "Data",
+   "label": "cash sales code"
+  },
+  {
+   "fieldname": "sreturn_code",
+   "fieldtype": "Data",
+   "label": "s.return code"
+  },
+  {
+   "fieldname": "balance_sheet_stock",
+   "fieldtype": "Data",
+   "label": "balance sheet stock"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "purchase_code",
+   "fieldtype": "Data",
+   "label": "purchase code"
+  },
+  {
+   "fieldname": "cash_purchase_code",
+   "fieldtype": "Data",
+   "label": "cash purchase code"
+  },
+  {
+   "fieldname": "preturn_code",
+   "fieldtype": "Data",
+   "label": "p.return code"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "active"
+  }
+ ],
+ "modified": "2022-12-20 17:38:55.006398",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "maintain stock group",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

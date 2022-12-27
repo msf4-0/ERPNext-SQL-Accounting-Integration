@@ -1,0 +1,181 @@
+{
+ "creation": "2022-12-19 15:56:38.895211",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "control_ac",
+  "code",
+  "section_break_4",
+  "branch_name",
+  "address",
+  "coordinate",
+  "attention",
+  "column_break_9",
+  "phone",
+  "mobile",
+  "fax",
+  "email",
+  "section_break_13",
+  "area",
+  "agent",
+  "currency",
+  "column_break_17",
+  "credit_terms",
+  "credit_limit",
+  "allow_exceed_credit_limit",
+  "column_break_19",
+  "statement",
+  "aging_on",
+  "price_tag"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "company"
+  },
+  {
+   "fieldname": "control_ac",
+   "fieldtype": "Data",
+   "label": "control A/C"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "code"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "branch_name",
+   "fieldtype": "Data",
+   "label": "branch name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "address"
+  },
+  {
+   "fieldname": "coordinate",
+   "fieldtype": "Data",
+   "label": "coordinate"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "label": "attention"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "phone"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "mobile"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "fax"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "currency"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_terms",
+   "fieldtype": "Data",
+   "label": "credit terms"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "credit limit"
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_exceed_credit_limit",
+   "fieldtype": "Check",
+   "label": "allow exceed credit limit"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "statement",
+   "fieldtype": "Select",
+   "label": "statement",
+   "options": "Open item\nbrought forward"
+  },
+  {
+   "fieldname": "aging_on",
+   "fieldtype": "Select",
+   "label": "aging on",
+   "options": "invoice date\ndue date"
+  },
+  {
+   "fieldname": "price_tag",
+   "fieldtype": "Data",
+   "label": "price tag"
+  }
+ ],
+ "modified": "2022-12-19 15:56:38.895211",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "maintain supplier",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

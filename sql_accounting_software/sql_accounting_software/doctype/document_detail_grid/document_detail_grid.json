@@ -1,0 +1,78 @@
+{
+ "creation": "2022-12-19 15:00:13.862214",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_ac",
+  "description",
+  "amount",
+  "tax",
+  "tax_rate",
+  "tax_amt",
+  "tax_inclusive",
+  "sub_total"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_ac",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "sales A/C"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "description"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "amount"
+  },
+  {
+   "fieldname": "tax",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "tax"
+  },
+  {
+   "fieldname": "tax_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "tax rate"
+  },
+  {
+   "fieldname": "tax_amt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "tax amt"
+  },
+  {
+   "default": "0",
+   "fieldname": "tax_inclusive",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "tax inclusive"
+  },
+  {
+   "fieldname": "sub_total",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "sub total"
+  }
+ ],
+ "istable": 1,
+ "modified": "2022-12-19 15:38:20.140184",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "document detail grid",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
