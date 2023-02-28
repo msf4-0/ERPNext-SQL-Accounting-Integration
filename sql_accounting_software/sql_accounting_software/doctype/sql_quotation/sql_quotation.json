@@ -1,5 +1,5 @@
 {
- "autoname": "QT.#####",
+ "autoname": "field:quo_no",
  "creation": "2022-12-20 14:12:08.660008",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -54,7 +54,8 @@
   {
    "fieldname": "quo_no",
    "fieldtype": "Data",
-   "label": "quo no"
+   "label": "quo no",
+   "unique": 1
   },
   {
    "fieldname": "agent",
@@ -92,7 +93,7 @@
    "label": "total"
   }
  ],
- "modified": "2022-12-20 14:35:54.421482",
+ "modified": "2023-02-17 22:23:27.267156",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "sql quotation",

@@ -5,10 +5,10 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "customer_code",
+  "supplier_code",
   "area",
   "currency",
-  "bill_to",
+  "bill_from",
   "cancelled",
   "column_break_6",
   "inv_no",
@@ -18,14 +18,13 @@
   "ext_no",
   "section_break_12",
   "document_detail_grid",
-  "total"
+  "total",
+  "section_break_15",
+  "invoice_description",
+  "column_break_17",
+  "outstanding"
  ],
  "fields": [
-  {
-   "fieldname": "customer_code",
-   "fieldtype": "Data",
-   "label": "customer code"
-  },
   {
    "fieldname": "area",
    "fieldtype": "Data",
@@ -35,11 +34,6 @@
    "fieldname": "currency",
    "fieldtype": "Data",
    "label": "currency"
-  },
-  {
-   "fieldname": "bill_to",
-   "fieldtype": "Data",
-   "label": "bill to"
   },
   {
    "default": "0",
@@ -91,9 +85,37 @@
    "fieldname": "total",
    "fieldtype": "Data",
    "label": "total"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_description",
+   "fieldtype": "Data",
+   "label": "invoice description"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outstanding",
+   "fieldtype": "Data",
+   "label": "outstanding"
+  },
+  {
+   "fieldname": "supplier_code",
+   "fieldtype": "Data",
+   "label": "supplier code"
+  },
+  {
+   "fieldname": "bill_from",
+   "fieldtype": "Data",
+   "label": "bill from"
   }
  ],
- "modified": "2022-12-19 15:48:27.914775",
+ "modified": "2023-02-17 21:01:41.491956",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "supplier invoice",

@@ -1,5 +1,5 @@
 {
- "autoname": "PQ.#####",
+ "autoname": "field:po_no",
  "creation": "2022-12-20 15:43:31.898053",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -18,7 +18,20 @@
   "ext_no",
   "section_break_12",
   "sales_order",
-  "total"
+  "section_break_14",
+  "local_net_total",
+  "column_break_16",
+  "net_total",
+  "section_break_18",
+  "deposit_paid_by",
+  "column_break_20",
+  "chq_no",
+  "column_break_22",
+  "payment_project",
+  "column_break_24",
+  "doc_no",
+  "column_break_26",
+  "amount"
  ],
  "fields": [
   {
@@ -54,7 +67,8 @@
   {
    "fieldname": "po_no",
    "fieldtype": "Data",
-   "label": "po no"
+   "label": "p/o no",
+   "unique": 1
   },
   {
    "fieldname": "agent",
@@ -87,12 +101,70 @@
    "options": "sales order child table"
   },
   {
-   "fieldname": "total",
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "local_net_total",
    "fieldtype": "Data",
-   "label": "total"
+   "label": "local net total"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_total",
+   "fieldtype": "Data",
+   "label": "net total"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "deposit_paid_by",
+   "fieldtype": "Data",
+   "label": "deposit paid by"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "chq_no",
+   "fieldtype": "Data",
+   "label": "chq no"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_project",
+   "fieldtype": "Data",
+   "label": "payment project"
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "doc_no",
+   "fieldtype": "Data",
+   "label": "doc no"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "amount"
   }
  ],
- "modified": "2022-12-20 15:43:31.898053",
+ "modified": "2023-02-17 23:44:51.976260",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "purchase request",

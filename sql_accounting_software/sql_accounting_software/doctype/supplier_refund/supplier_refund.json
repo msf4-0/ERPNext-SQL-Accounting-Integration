@@ -1,19 +1,155 @@
 {
- "creation": "2022-12-14 09:42:47.173705",
+ "autoname": "field:cf_no",
+ "creation": "2023-02-17 20:12:34.903744",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "t"
+  "customer_code",
+  "project",
+  "column_break_3",
+  "currency",
+  "section_break_6",
+  "paid_by",
+  "received_in",
+  "bank_charge",
+  "cheque_no",
+  "refund_amt",
+  "column_break_12",
+  "cf_no",
+  "date",
+  "agent",
+  "area",
+  "local_amount",
+  "cancelled",
+  "section_break_18",
+  "description",
+  "column_break_17",
+  "unapplied_amt",
+  "section_break_22",
+  "knock_off",
+  "total"
  ],
  "fields": [
   {
-   "fieldname": "t",
+   "fieldname": "customer_code",
    "fieldtype": "Data",
-   "label": "t"
+   "label": "supplier  code"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "project"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "currency"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paid_by",
+   "fieldtype": "Data",
+   "label": "paid by"
+  },
+  {
+   "fieldname": "received_in",
+   "fieldtype": "Data",
+   "label": "received in"
+  },
+  {
+   "fieldname": "bank_charge",
+   "fieldtype": "Data",
+   "label": "bank charge"
+  },
+  {
+   "fieldname": "cheque_no",
+   "fieldtype": "Data",
+   "label": "cheque no"
+  },
+  {
+   "fieldname": "refund_amt",
+   "fieldtype": "Data",
+   "label": "refund amt"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cf_no",
+   "fieldtype": "Data",
+   "label": "c/f no",
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area"
+  },
+  {
+   "fieldname": "local_amount",
+   "fieldtype": "Data",
+   "label": "local amount"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unapplied_amt",
+   "fieldtype": "Data",
+   "label": "unapplied amt"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "knock_off",
+   "fieldtype": "Table",
+   "label": "knock off",
+   "options": "customer refund knock off"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "total"
   }
  ],
- "modified": "2022-12-14 09:42:47.173705",
+ "modified": "2023-02-17 20:13:39.115467",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "supplier refund",

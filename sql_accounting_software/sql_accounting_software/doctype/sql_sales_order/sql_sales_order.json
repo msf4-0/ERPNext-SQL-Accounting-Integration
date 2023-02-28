@@ -1,4 +1,5 @@
 {
+ "autoname": "field:so_no",
  "creation": "2022-12-20 09:45:12.827854",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -27,7 +28,9 @@
   "column_break_21",
   "bank_charges",
   "column_break_23",
-  "amount"
+  "amount",
+  "column_break_25",
+  "doc_no"
  ],
  "fields": [
   {
@@ -58,7 +61,8 @@
   {
    "fieldname": "so_no",
    "fieldtype": "Data",
-   "label": "so no"
+   "label": "so no",
+   "unique": 1
   },
   {
    "fieldname": "date",
@@ -145,9 +149,18 @@
    "fieldname": "amount",
    "fieldtype": "Data",
    "label": "amount"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "doc_no",
+   "fieldtype": "Data",
+   "label": "doc no"
   }
  ],
- "modified": "2022-12-20 10:27:02.195358",
+ "modified": "2023-02-17 22:20:22.795033",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "sql sales order",

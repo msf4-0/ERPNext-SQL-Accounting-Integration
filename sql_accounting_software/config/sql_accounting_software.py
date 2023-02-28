@@ -7,7 +7,7 @@ def get_data():
             "items": [
                 {
                     "type": "doctype",
-                    "name": "invoice",
+                    "name": "customer invoice",
                     "label": "Invoice",
                     "onboard": 1,
                 },
@@ -114,7 +114,7 @@ def get_data():
                 },
                 {
                     "type": "doctype",
-                    "name": "delivery order",
+                    "name": "sql delivery order",
                     "label": "Delivery Order",
                     "onboard": 3,
                 },
@@ -132,9 +132,15 @@ def get_data():
                 },
                 {
                     "type": "doctype",
-                    "name": "credit note",
+                    "name": "sql credit note",
                     "label": "Credit Note",
                     "onboard": 6,
+                },
+                {
+                    "type": "doctype",
+                    "name": "sql debit note",
+                    "label": "Debit Note",
+                    "onboard": 7,
                 },
                 
             ]
@@ -210,15 +216,27 @@ def get_data():
                 },
                 {
                     "type": "doctype",
-                    "name": "stock issue",
+                    "name": "sql stock issue",
                     "label": "Stock Issue",
                     "onboard": 4,
                 },
                 {
                     "type": "doctype",
-                    "name": "stock adjustment",
+                    "name": "sql stock adjustment",
                     "label": "Stock Adjustment",
                     "onboard": 5,
+                },
+            ]
+
+        },
+        {
+            "label": _("Settings"),
+            "items": [
+                {
+                    "type": "doctype",
+                    "name": "sql accounting settings",
+                    "label": "Sql Accounting Settings",
+                    "onboard": 1,
                 },
             ]
 

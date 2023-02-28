@@ -1,4 +1,5 @@
 {
+ "autoname": "field:code",
  "creation": "2022-12-13 19:38:59.611640",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -7,6 +8,9 @@
   "company",
   "control_ac",
   "code",
+  "column_break_4",
+  "gst_no",
+  "cust_category",
   "section_break_4",
   "branch_name",
   "address",
@@ -23,8 +27,6 @@
   "currency",
   "column_break_17",
   "credit_terms",
-  "credit_limit",
-  "allow_exceed_credit_limit",
   "column_break_19",
   "statement",
   "aging_on",
@@ -44,7 +46,8 @@
   {
    "fieldname": "code",
    "fieldtype": "Data",
-   "label": "code"
+   "label": "code",
+   "unique": 1
   },
   {
    "fieldname": "section_break_4",
@@ -106,7 +109,7 @@
   },
   {
    "fieldname": "currency",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "currency"
   },
   {
@@ -124,15 +127,13 @@
   },
   {
    "fieldname": "statement",
-   "fieldtype": "Select",
-   "label": "statement",
-   "options": "Open item\nbrought forward"
+   "fieldtype": "Data",
+   "label": "statement"
   },
   {
    "fieldname": "aging_on",
-   "fieldtype": "Select",
-   "label": "aging on",
-   "options": "invoice date\ndue date"
+   "fieldtype": "Data",
+   "label": "aging on"
   },
   {
    "fieldname": "price_tag",
@@ -144,18 +145,21 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "credit_limit",
-   "fieldtype": "Data",
-   "label": "credit limit"
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
   },
   {
-   "default": "0",
-   "fieldname": "allow_exceed_credit_limit",
-   "fieldtype": "Check",
-   "label": "allow exceed credit limit"
+   "fieldname": "gst_no",
+   "fieldtype": "Data",
+   "label": "GST. no"
+  },
+  {
+   "fieldname": "cust_category",
+   "fieldtype": "Data",
+   "label": "cust. category"
   }
  ],
- "modified": "2022-12-19 15:52:54.506559",
+ "modified": "2023-02-16 10:31:39.546799",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "maintain customer",

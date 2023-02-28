@@ -1,19 +1,166 @@
 {
- "creation": "2022-12-14 09:43:19.654776",
+ "autoname": "field:pv_no",
+ "creation": "2023-02-17 20:32:42.804027",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "t"
+  "supplier_code",
+  "project",
+  "column_break_3",
+  "supplier_bank",
+  "from_deposit",
+  "column_break_6",
+  "currency",
+  "section_break_6",
+  "pay_to",
+  "payment_by",
+  "bank_charge",
+  "cheque_no",
+  "paid_amount",
+  "column_break_12",
+  "pv_no",
+  "date",
+  "agent",
+  "area",
+  "cancelled",
+  "section_break_18",
+  "description",
+  "column_break_17",
+  "unapplied_amt",
+  "section_break_22",
+  "knock_off",
+  "total"
  ],
  "fields": [
   {
-   "fieldname": "t",
+   "fieldname": "project",
    "fieldtype": "Data",
-   "label": "t"
+   "label": "project"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supplier_bank",
+   "fieldtype": "Data",
+   "label": "supplier bank"
+  },
+  {
+   "fieldname": "from_deposit",
+   "fieldtype": "Data",
+   "label": "from deposit"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "currency"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pay_to",
+   "fieldtype": "Data",
+   "label": "pay to"
+  },
+  {
+   "fieldname": "bank_charge",
+   "fieldtype": "Data",
+   "label": "bank charge"
+  },
+  {
+   "fieldname": "cheque_no",
+   "fieldtype": "Data",
+   "label": "cheque no"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pv_no",
+   "fieldtype": "Data",
+   "label": "p/v no",
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unapplied_amt",
+   "fieldtype": "Data",
+   "label": "unapplied amt"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "knock_off",
+   "fieldtype": "Table",
+   "label": "knock off",
+   "options": "supplier knock off"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "total"
+  },
+  {
+   "fieldname": "supplier_code",
+   "fieldtype": "Data",
+   "label": "supplier code"
+  },
+  {
+   "fieldname": "payment_by",
+   "fieldtype": "Data",
+   "label": "payment by"
+  },
+  {
+   "fieldname": "paid_amount",
+   "fieldtype": "Data",
+   "label": "paid amount"
   }
  ],
- "modified": "2022-12-14 09:43:19.654776",
+ "modified": "2023-02-17 20:37:35.770057",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "supplier payment",

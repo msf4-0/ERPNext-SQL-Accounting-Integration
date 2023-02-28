@@ -1,19 +1,137 @@
 {
- "creation": "2022-12-14 09:42:18.055126",
+ "autoname": "field:ct_no",
+ "creation": "2023-02-17 19:57:29.962670",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "t"
+  "supplier_code",
+  "project",
+  "currency",
+  "cancelled",
+  "column_break_5",
+  "ct_no",
+  "date",
+  "agent",
+  "area",
+  "section_break_10",
+  "supplier",
+  "column_break_12",
+  "contra_amount",
+  "local_amount",
+  "section_break_15",
+  "description",
+  "column_break_17",
+  "unapplied_amt",
+  "section_break_18",
+  "knock_off_invoice_debit_notes",
+  "total"
  ],
  "fields": [
   {
-   "fieldname": "t",
+   "fieldname": "supplier_code",
    "fieldtype": "Data",
-   "label": "t"
+   "label": "supplier code"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "project"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "currency"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ct_no",
+   "fieldtype": "Data",
+   "label": "c/t no",
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "supplier "
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contra_amount",
+   "fieldtype": "Data",
+   "label": "contra amount"
+  },
+  {
+   "fieldname": "local_amount",
+   "fieldtype": "Data",
+   "label": "local amount"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unapplied_amt",
+   "fieldtype": "Data",
+   "label": "unapplied amt"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "knock_off_invoice_debit_notes",
+   "fieldtype": "Table",
+   "label": "knock off invoice/ debit notes",
+   "options": "knock off invoice debit notes"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "total"
   }
  ],
- "modified": "2022-12-14 09:42:18.055126",
+ "modified": "2023-02-17 19:58:00.864468",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "supplier contra",

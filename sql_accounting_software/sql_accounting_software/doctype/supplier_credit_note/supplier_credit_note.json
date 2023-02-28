@@ -1,19 +1,134 @@
 {
- "creation": "2022-12-14 09:45:15.551539",
+ "autoname": "field:cn_no",
+ "creation": "2023-02-17 21:07:51.419350",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "t"
+  "supplier_code",
+  "area",
+  "currency",
+  "supplier",
+  "cancelled",
+  "column_break_6",
+  "cn_no",
+  "date",
+  "agent",
+  "ext_no",
+  "section_break_12",
+  "document_detail_grid",
+  "local_net_total",
+  "section_break_15",
+  "cn_description",
+  "column_break_17",
+  "unapplied_amt",
+  "section_break_18",
+  "knock_off_grid",
+  "total"
  ],
  "fields": [
   {
-   "fieldname": "t",
+   "fieldname": "supplier_code",
    "fieldtype": "Data",
-   "label": "t"
+   "label": "supplier code"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "currency"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cn_no",
+   "fieldtype": "Data",
+   "label": "c/n no",
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "ext_no",
+   "fieldtype": "Data",
+   "label": "ext. no"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "document_detail_grid",
+   "fieldtype": "Table",
+   "label": "document detail grid",
+   "options": "document detail grid"
+  },
+  {
+   "fieldname": "local_net_total",
+   "fieldtype": "Data",
+   "label": "local net total"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cn_description",
+   "fieldtype": "Data",
+   "label": "c/n description"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unapplied_amt",
+   "fieldtype": "Data",
+   "label": "unapplied amt"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break",
+   "label": "knock off invoice/ debit notes"
+  },
+  {
+   "fieldname": "knock_off_grid",
+   "fieldtype": "Table",
+   "label": "knock off grid",
+   "options": "knock off invoice debit notes"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "total"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "supplier"
   }
  ],
- "modified": "2022-12-14 09:45:15.551539",
+ "modified": "2023-02-17 21:09:36.861324",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "supplier credit note",

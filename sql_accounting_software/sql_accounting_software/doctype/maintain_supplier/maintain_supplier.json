@@ -1,4 +1,5 @@
 {
+ "autoname": "field:code",
  "creation": "2022-12-19 15:56:38.895211",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -6,7 +7,11 @@
  "field_order": [
   "company",
   "control_ac",
+  "column_break_3",
   "code",
+  "supp_category",
+  "column_break_6",
+  "gst_no",
   "section_break_4",
   "branch_name",
   "address",
@@ -44,7 +49,8 @@
   {
    "fieldname": "code",
    "fieldtype": "Data",
-   "label": "code"
+   "label": "code",
+   "unique": 1
   },
   {
    "fieldname": "section_break_4",
@@ -153,9 +159,27 @@
    "fieldname": "price_tag",
    "fieldtype": "Data",
    "label": "price tag"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supp_category",
+   "fieldtype": "Data",
+   "label": "supp. category"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gst_no",
+   "fieldtype": "Data",
+   "label": "gst. no"
   }
  ],
- "modified": "2022-12-19 15:56:38.895211",
+ "modified": "2023-02-22 15:26:21.813738",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "maintain supplier",

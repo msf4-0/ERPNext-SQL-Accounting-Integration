@@ -1,19 +1,182 @@
 {
- "creation": "2022-12-14 09:50:33.457028",
+ "autoname": "field:cs_no",
+ "creation": "2023-01-11 15:48:23.012783",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "t"
+  "customer",
+  "address",
+  "description",
+  "cancelled",
+  "date",
+  "column_break_5",
+  "cs_no",
+  "agent",
+  "terms",
+  "ref_1",
+  "ext_no",
+  "section_break_12",
+  "sales_order",
+  "section_break_14",
+  "deposit_amount",
+  "column_break_16",
+  "local_net_total",
+  "column_break_18",
+  "total",
+  "payment_received_section",
+  "payment_into",
+  "column_break_17",
+  "chq_no",
+  "column_break_19",
+  "payment_project",
+  "column_break_21",
+  "bank_charges",
+  "column_break_23",
+  "amount"
  ],
  "fields": [
   {
-   "fieldname": "t",
+   "fieldname": "customer",
    "fieldtype": "Data",
-   "label": "t"
+   "label": "customer"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "address"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Data",
+   "label": "terms"
+  },
+  {
+   "fieldname": "ref_1",
+   "fieldtype": "Data",
+   "label": "ref 1"
+  },
+  {
+   "fieldname": "ext_no",
+   "fieldtype": "Data",
+   "label": "ext no"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Table",
+   "label": "sales order",
+   "options": "sales order child table"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "total"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "chq_no",
+   "fieldtype": "Data",
+   "label": "chq no"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_project",
+   "fieldtype": "Data",
+   "label": "payment project"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_charges",
+   "fieldtype": "Data",
+   "label": "bank charges"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "amount"
+  },
+  {
+   "fieldname": "cs_no",
+   "fieldtype": "Data",
+   "label": "cs no",
+   "unique": 1
+  },
+  {
+   "fieldname": "payment_received_section",
+   "fieldtype": "Section Break",
+   "label": "payment received"
+  },
+  {
+   "fieldname": "payment_into",
+   "fieldtype": "Data",
+   "label": "payment into"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "deposit_amount",
+   "fieldtype": "Data",
+   "label": " deposit amount"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "local_net_total",
+   "fieldtype": "Data",
+   "label": " local net total"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
   }
  ],
- "modified": "2022-12-14 09:50:33.457028",
+ "modified": "2023-02-17 22:54:47.134420",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "cash sales",

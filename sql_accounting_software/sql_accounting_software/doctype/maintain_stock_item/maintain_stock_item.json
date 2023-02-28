@@ -1,4 +1,5 @@
 {
+ "autoname": "field:code",
  "creation": "2022-12-14 10:10:25.944799",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -35,7 +36,8 @@
   {
    "fieldname": "code",
    "fieldtype": "Data",
-   "label": "code"
+   "label": "code",
+   "unique": 1
   },
   {
    "fieldname": "description",
@@ -161,7 +163,7 @@
    "options": "stock item child table"
   }
  ],
- "modified": "2022-12-20 17:54:58.957673",
+ "modified": "2023-02-27 23:51:03.444095",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "maintain stock item",

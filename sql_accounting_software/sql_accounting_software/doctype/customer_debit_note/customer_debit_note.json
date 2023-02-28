@@ -1,19 +1,122 @@
 {
- "creation": "2022-12-14 09:40:16.281583",
+ "autoname": "field:dn_no",
+ "creation": "2023-02-17 16:01:50.859894",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "t"
+  "customer_code",
+  "area",
+  "currency",
+  "bill_to",
+  "cancelled",
+  "column_break_6",
+  "dn_no",
+  "date",
+  "agent",
+  "terms",
+  "ext_no",
+  "section_break_12",
+  "document_detail_grid",
+  "total",
+  "section_break_15",
+  "dn_description",
+  "column_break_17",
+  "outstanding"
  ],
  "fields": [
   {
-   "fieldname": "t",
+   "fieldname": "customer_code",
    "fieldtype": "Data",
-   "label": "t"
+   "label": "customer code"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "currency"
+  },
+  {
+   "fieldname": "bill_to",
+   "fieldtype": "Data",
+   "label": "bill to"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dn_no",
+   "fieldtype": "Data",
+   "label": "d/n no",
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Data",
+   "label": "terms"
+  },
+  {
+   "fieldname": "ext_no",
+   "fieldtype": "Data",
+   "label": "ext. no"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "document_detail_grid",
+   "fieldtype": "Table",
+   "label": "document detail grid",
+   "options": "document detail grid"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outstanding",
+   "fieldtype": "Data",
+   "label": "outstanding"
+  },
+  {
+   "fieldname": "dn_description",
+   "fieldtype": "Data",
+   "label": "d/n description"
   }
  ],
- "modified": "2022-12-14 09:40:16.281583",
+ "modified": "2023-02-17 19:31:18.216591",
  "modified_by": "Administrator",
  "module": "Sql Accounting Software",
  "name": "customer debit note",
