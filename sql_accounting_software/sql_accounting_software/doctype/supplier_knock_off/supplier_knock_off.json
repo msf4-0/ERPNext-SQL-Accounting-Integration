@@ -1,0 +1,69 @@
+{
+ "creation": "2023-02-17 20:30:25.240772",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "date",
+  "post_date",
+  "doc_no",
+  "amount",
+  "outstanding",
+  "pay"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "type"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "date"
+  },
+  {
+   "fieldname": "post_date",
+   "fieldtype": "Data",
+   "label": "post date"
+  },
+  {
+   "fieldname": "doc_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "doc. no"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "amount"
+  },
+  {
+   "fieldname": "outstanding",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "outstanding"
+  },
+  {
+   "fieldname": "pay",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "pay"
+  }
+ ],
+ "istable": 1,
+ "modified": "2023-02-17 20:30:25.240772",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "supplier knock off",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

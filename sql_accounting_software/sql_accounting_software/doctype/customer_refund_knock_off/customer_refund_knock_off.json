@@ -1,0 +1,64 @@
+{
+ "creation": "2023-02-17 11:52:08.287382",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "date",
+  "docno",
+  "amount",
+  "unapplied_amt",
+  "refund_amt"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "type"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "date"
+  },
+  {
+   "fieldname": "docno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "doc.no",
+   "unique": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "amount"
+  },
+  {
+   "fieldname": "unapplied_amt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "unapplied amt"
+  },
+  {
+   "fieldname": "refund_amt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "refund amt"
+  }
+ ],
+ "istable": 1,
+ "modified": "2023-02-17 12:08:48.618286",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "customer refund knock off",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

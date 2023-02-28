@@ -1,0 +1,125 @@
+{
+ "autoname": "field:dn_no",
+ "creation": "2023-02-17 23:15:05.380714",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "address",
+  "description",
+  "date",
+  "cancelled",
+  "column_break_6",
+  "dn_no",
+  "agent",
+  "terms",
+  "ref_1",
+  "ext_no",
+  "from_doc",
+  "section_break_12",
+  "document_detail_grid",
+  "net_total"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "customer"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "ref_1",
+   "fieldtype": "Data",
+   "label": "ref 1"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dn_no",
+   "fieldtype": "Data",
+   "label": "dn no",
+   "unique": 1
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Data",
+   "label": "terms"
+  },
+  {
+   "fieldname": "ext_no",
+   "fieldtype": "Data",
+   "label": "ext. no"
+  },
+  {
+   "fieldname": "from_doc",
+   "fieldtype": "Data",
+   "label": "from doc"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break",
+   "label": "credit note"
+  },
+  {
+   "fieldname": "document_detail_grid",
+   "fieldtype": "Table",
+   "options": "sales order child table"
+  },
+  {
+   "fieldname": "net_total",
+   "fieldtype": "Data",
+   "label": "net total"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "address"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  }
+ ],
+ "modified": "2023-02-28 11:17:22.782508",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "sql debit note",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

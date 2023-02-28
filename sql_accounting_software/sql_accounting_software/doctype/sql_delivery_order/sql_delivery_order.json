@@ -1,0 +1,146 @@
+{
+ "autoname": "field:do_no",
+ "creation": "2023-02-17 22:15:32.979721",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "address",
+  "description",
+  "cancelled",
+  "date",
+  "column_break_5",
+  "do_no",
+  "agent",
+  "terms",
+  "ref_1",
+  "ext_no",
+  "section_break_12",
+  "sales_order",
+  "section_break_14",
+  "deposit_amount",
+  "column_break_16",
+  "local_net_total",
+  "column_break_18",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "customer"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "address"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "description"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancelled",
+   "fieldtype": "Check",
+   "label": "cancelled"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "date"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "do_no",
+   "fieldtype": "Data",
+   "label": "d/o no",
+   "unique": 1
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Data",
+   "label": "terms"
+  },
+  {
+   "fieldname": "ref_1",
+   "fieldtype": "Data",
+   "label": "ref 1"
+  },
+  {
+   "fieldname": "ext_no",
+   "fieldtype": "Data",
+   "label": "ext no"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Table",
+   "label": "quotation",
+   "options": "sales order child table"
+  },
+  {
+   "fieldname": "deposit_amount",
+   "fieldtype": "Data",
+   "label": "deposit amount"
+  },
+  {
+   "fieldname": "local_net_total",
+   "fieldtype": "Data",
+   "label": "local net total"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "total"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "modified": "2023-02-17 22:19:12.898053",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "sql delivery order",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
