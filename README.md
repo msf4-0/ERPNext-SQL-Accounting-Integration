@@ -15,17 +15,21 @@ Sql Accounting ERPNext custom app is built based on [SQL Account](https://www.sq
 ## Installation
 
 ### Pre-requisites
-1. SQL Account
+1. [SQL Account](https://www.sql.com.my/download/demo/sqlacc-setup.exe)
 
-- Refers to: https://www.sql.com.my/download/demo/sqlacc-setup.exe
+- Setup guide: https://www.sql.com.my/download/demo/sqlacc-setup.exe
 
-2. SQL Account API server.
+2. [Firebird](https://github.com/FirebirdSQL/firebird/releases/download/R3_0_4/Firebird-3.0.4.33054_0_x64.exe)
 
-- Download and run SQL Account API. guide is available at: https://github.com/Nb-Richard/sql_account_api
+- Setup guide: https://wiki.sql.com.my/wiki/Firebird
 
-3. Installed ERPNext which runs on localhost. 
+3. SQL Account API
 
-- Installation guide refers to: https://github.com/msf4-0/IRPS-Autocount-Integration
+- Setup guide is available at: https://github.com/Nb-Richard/sql_account_api
+
+4. Installed ERPNext which runs on localhost. 
+
+- Installation guide refers to: https://github.com/msf4-0/ERPNext-SQL-Accounting-Integration
 
 ## Setup
 By default, the IP address is set to docker localhost with port of `8000` (http://host.docker.internal:8000). If the app is not running on main computer which installs SQL Account software, users must configure the settings before using.
