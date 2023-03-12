@@ -29,7 +29,7 @@ Sql Accounting ERPNext custom app is built based on [SQL Account](https://www.sq
 
 4. Installed ERPNext which runs on localhost. 
 
-- Installation guide refers to: https://github.com/msf4-0/ERPNext-SQL-Accounting-Integration
+- Installation guide refers to: https://github.com/msf4-0/IRPS-SQL_Accounting-Autocount-frepple
 
 ## Setup
 By default, the IP address is set to docker localhost with port of `8000` (http://host.docker.internal:8000). If the app is not running on main computer which installs SQL Account software, users must configure the settings before using.
